@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Мониторинг</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script src="persons-scripts.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container ">
+    <H2>Persons</H2><br>
+    <div class="row">
+        <div class="col-lg-6">
+            <form>
+                <div class="input-group">
+                    <span class="input-group-btn"><button id="findButton" type="button" class="btn btn-default">Load</button></span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <br>
+    <div id="tableDiv">
+        <table id="documents" width="100%" class="table table-hover">
+            <thead>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>
